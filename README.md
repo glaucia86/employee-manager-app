@@ -40,7 +40,7 @@ E o resultado do JSon (Response) deverá (exemplo):
 
 - Python ~ 3.5.0;
 - Pip;
-- Django ~ 1.9.6;
+- Django ~ 1.10.5;
 - Psycopg2; (adaptador do PostgreSql para Python)
 - PostgreSQL;
 - Django REST Framework;
@@ -61,7 +61,7 @@ Procurando seguir o padrão e design das API's, segue abaixo as URI's das rotas 
 
  ROTA                     |     HTTP(Verbo)   |      Descrição        | 
 ------------------------- | ----------------- | --------------------- | 
-/employee                 |       GET         | Selecionar Todos      | 
+/employees                |       GET         | Selecionar Todos      | 
 /employee                 |       POST        | Atualizar Por Id      | 
 /employee/:employee_id    |       GET         | Selecionar Por Id     | 
 /employee/:employee_id    |       PUT         | Atualizar Por Id      |    
@@ -84,9 +84,19 @@ Para que o projeto execute de maneira satisfatória, há a necessidade de instal
 1) Instalar: Python [AQUI](https://www.python.org/downloads/)
   - Video explicando como instalar Python 3.5 [AQUI](https://www.youtube.com/watch?v=YdNiifNwt_M)
 
-2) Instalar: PostgreSQL [AQUI]()
+2) Instalar: PostgreSQL [AQUI](https://www.postgresql.org/download/windows/)
+  - Informações como instalar PostegreSQL [AQUI](http://www.bosontreinamentos.com.br/postgresql-banco-dados/instalacao-do-postgresql-no-microsoft-windows/)
 
-3) Instalar: Psycopg2 [AQUI]()
-
+3) Instalar: Psycopg2 [AQUI](http://www.stickpeople.com/projects/python/win-psycopg/)
+  - Procurar instalar a mesma versão instalada do Python. Que nesse caso é a versão: 3.5.0
 
 (Documentação em desenvolvimento....)
+
+4) Instalar Django de maneira global da seguinte maneira:
+  
+Deverá abrir o seu cmd e digitar o seguinte comando abaixo:
+
+```
+> python -m pip install django 
+
+```
