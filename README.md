@@ -73,9 +73,9 @@ Procurando seguir o padrão e design das API's, segue abaixo as URI's das rotas 
 
 Como estaremos desenvolvendo usando o framework do Python **Django** trabalharemos com a seguinte definição de Arquitetura: MTV
 
-**M**: Model
-**T**: Template
-**V**: View
+- **M**: Model
+- **T**: Template
+- **V**: View
 
 
 ## Executando a Aplicação:
