@@ -6,7 +6,7 @@ A aplicação irá ter:
 * Um painel Admin feito em Django para que possa gerenciar os dados dos empregados;
 * E uma API que permita: listar, adicionar e remover os empregados (somente o Admin);
 
-## Exemplo das URI's de Requisição:
+## Exemplo das URI's de Requisição (Request):
 
 ```
 curl -H "curl -H "Content-Type: application/javascript" http://localhost:8000/employee/
@@ -36,4 +36,34 @@ E o resultado do JSon (Response) deverá (exemplo):
 
 ```
 
+## Recursos Utilizados no Desenvolvimento da Aplicação:
 
+- Python ~ 2.7.13;
+- Pip;
+- Conceito RestFul;
+- Django;
+- Django Rest Framework;
+- Angular;
+
+## Acompanhamento do Desenvolvimento dos BackLogs do Projeto:
+
+Caso queira saber o acompanhamento do desenvolvimento de cada backlog do projeto que está sendo
+desenvolvido, basta clicar [Aqui](https://trello.com/b/GU7mnbyn/projeto-luizalabs-employee-manager-application)
+
+## Padrão das Rotas Criadas: 
+
+Procurando seguir o padrão e design das API's, segue abaixo as URI's das rotas a serem desenvolvidas:
+
+ ROTA                     |     HTTP(Verbo)   |      Descrição        | 
+------------------------- | ----------------- | --------------------- | 
+/employee                 |       GET         | Selecionar Todos      | 
+/employee                 |       POST        | Atualizar Por Id      | 
+/employee/:employee_id    |       GET         | Selecionar Por Id     | 
+/employee/:employee_id    |       PUT         | Atualizar Por Id      |    
+/employee/:employee_id    |       DELETE      | Excluir Por Id        |
+
+
+## Executando a Aplicação:
+
+
+(Documentação em desenvolvimento....)
