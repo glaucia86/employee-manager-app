@@ -13,4 +13,4 @@ from django.db import models
 class Employee(models.Model): 
 		name = models.CharField(max_length=50)
 		email = models.EmailField(max_length=30)
-		departament = models.CharField(max_lenght=50)
+		departament = models.CharField(max_length=50)
