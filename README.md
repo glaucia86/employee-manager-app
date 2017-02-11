@@ -39,10 +39,11 @@ E o resultado do JSon (Response) deverá (exemplo):
 ## Recursos Utilizados no Desenvolvimento da Aplicação:
 
 - Python ~ 3.5.0;
-- Pip;
+- Pip ~ 9.0.1;
+- VirtualEnv ~ 15.1.0;
 - Django ~ 1.10.5;
-- Psycopg2; (adaptador do PostgreSql para Python)
-- PostgreSQL;
+- Psycopg2 ~ 2.6.2; (adaptador do PostgreSql para Python)
+- PostgreSQL ~ 9.4.11;
 - Django REST Framework;
 - Conceito Web & HTTP Protocol;
 - Bootstrap Framework 3;
@@ -85,7 +86,8 @@ Para que o projeto execute de maneira satisfatória, há a necessidade de instal
   - Video explicando como instalar Python 3.5 [AQUI](https://www.youtube.com/watch?v=YdNiifNwt_M)
 
 2) Instalar: PostgreSQL [AQUI](https://www.postgresql.org/download/windows/)
-  - Informações como instalar PostegreSQL [AQUI](http://www.bosontreinamentos.com.br/postgresql-banco-dados/instalacao-do-postgresql-no-microsoft-windows/)
+  - Observação: Ao instalar PostgreSQL procure averiguar a versão do Psycopg2. A versão do PostgreSQl **SEMPRE** deverá ser uma versão abaixo do Psycopg2. ;)
+  - Video explicando como Instalar e configurar Django com PostgreSQL no Windows [AQUI](https://www.youtube.com/watch?v=ILHKxLASLkQ)
 
 3) Instalar: Psycopg2 [AQUI](http://www.stickpeople.com/projects/python/win-psycopg/)
   - Procurar instalar a mesma versão instalada do Python. Que nesse caso é a versão: 3.5.0
@@ -98,5 +100,31 @@ Deverá abrir o seu cmd e digitar o seguinte comando abaixo:
 
 ```
 > python -m pip install django 
+
+```
+
+5) Instalar o VirtualEnv de maneira global da seguinte maneira:
+
+Deverá abrir o seu cmd e digitar o seguinte comando abaixo:
+
+```
+> python -m pip instal virtualenv
+
+```
+
+Bom, depois que tudo estiver instalado, vamos averiguar se todo o ambiente já está preparado. Para isso, basta digitar o seguinte comando abaixo:
+
+```
+> python -m pip freeze
+
+```
+
+Se ao digitar o comando e apresentar: Django, Pyscopg2 e Virtualenv com as suas versões é porque estão devidamente instalados no computador.
+
+```
+C:\>python -m pip freeze
+Django==1.10.5
+psycopg2==2.6.2
+virtualenv==15.1.0
 
 ```
