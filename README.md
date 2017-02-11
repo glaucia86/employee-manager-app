@@ -38,11 +38,16 @@ E o resultado do JSon (Response) deverá (exemplo):
 
 ## Recursos Utilizados no Desenvolvimento da Aplicação:
 
-- Python ~ 2.7.13;
+- Python ~ 3.5.0;
 - Pip;
-- Django ~ 1.8 
+- Django ~ 1.9.6;
+- Psycopg2; (adaptador do PostgreSql para Python)
+- PostgreSQL;
 - Django REST Framework;
 - Conceito Web & HTTP Protocol;
+- Bootstrap Framework 3;
+- HTML;
+- CSS;
 - IDE's: Sublime & Visual Code;
 
 ## Acompanhamento do Desenvolvimento dos BackLogs do Projeto:
@@ -73,6 +78,15 @@ Como estaremos desenvolvendo usando o framework do Python - **Django** - trabalh
 
 
 ## Executando a Aplicação:
+
+Para que o projeto execute de maneira satisfatória, há a necessidade de instalar os programas abaixo:
+
+1) Instalar: Python [AQUI](https://www.python.org/downloads/)
+  - Video explicando como instalar Python 3.5 [AQUI](https://www.youtube.com/watch?v=YdNiifNwt_M)
+
+2) Instalar: PostgreSQL [AQUI]()
+
+3) Instalar: Psycopg2 [AQUI]()
 
 
 (Documentação em desenvolvimento....)
