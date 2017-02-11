@@ -69,6 +69,15 @@ Procurando seguir o padrão e design das API's, segue abaixo as URI's das rotas 
 /employee/:employee_id    |       DELETE      | Excluir Por Id        |
 
 
+## Padrão da Arquitetura do Projeto:
+
+Como estaremos desenvolvendo usando o framework do Python **Django** trabalharemos com a seguinte definição de Arquitetura: MTV
+
+**M**: Model
+**T**: Template
+**V**: View
+
+
 ## Executando a Aplicação:
 
 
