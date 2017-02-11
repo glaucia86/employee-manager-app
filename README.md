@@ -43,7 +43,8 @@ E o resultado do JSon (Response) deverá (exemplo):
 - Conceito RestFul;
 - Django;
 - Django Rest Framework;
-- Angular;
+- Angular ~ 1.x;
+- IDE's: Sublime & Visual Code;
 
 ## Acompanhamento do Desenvolvimento dos BackLogs do Projeto:
 
