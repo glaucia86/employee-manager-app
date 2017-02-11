@@ -40,15 +40,9 @@ E o resultado do JSon (Response) deverá (exemplo):
 
 - Python ~ 2.7.13;
 - Pip;
-- Uso do REST e AJAX (Para transmitir os dados);
-- Django ~ 1.8 (Para uso de Persistência de dados no lado do server-side com Python);
-- Django REST Framework (Para enviar dados do cliente para o server);
-- AngularJs ~ 1.6;
+- Django ~ 1.8 
+- Django REST Framework;
 - Conceito Web & HTTP Protocol;
-- Bootstrap Framework;
-- HTML;
-- CSS;
-- JavaScript;
 - IDE's: Sublime & Visual Code;
 
 ## Acompanhamento do Desenvolvimento dos BackLogs do Projeto:
